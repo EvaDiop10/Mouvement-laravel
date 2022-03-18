@@ -17,13 +17,11 @@
 <div class="container">
    
     <div class="mb-3 form-check">
-    @foreach($entreprise as $entreprise)
-        <p>{{$entreprise->nom}}</p>
-        <td>{{$entreprise->siege}}</td>
-        <td>{{$entreprise->dateCreation}}</td>
-        <td>{{$entreprise->registre}}</td>
-        <td>{{$entreprise->quartier->nom}}</td>
-    @endforeach
+        <h1>{{$entreprise->nom}}</h1>
+        <p>{{$entreprise->siege}}</p>
+        <p>{{$entreprise->dateCreation}}</p>
+        <p>{{$entreprise->registre}}</p>
+        <p>{{$entreprise->quartier->nom}}</p>
     </div>
    
 </div> 

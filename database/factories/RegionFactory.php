@@ -17,8 +17,8 @@ class RegionFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->contry(),
-            'pays_id' => $this->faker->numberBetween(1,5),
+            'name' => $this->faker->region(),
+            'pays_id' => $this->faker->numberBetween(1,26),
         ];
     }
 }

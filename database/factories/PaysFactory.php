@@ -17,7 +17,7 @@ class PaysFactory extends Factory
     public function definition()
     {
         return [
-            'nom' => $this->faker->contry(),
+            'nom' => $this->faker->country(),
             'indicatif' => $this->faker->numberBetween(100,300),
 
 
